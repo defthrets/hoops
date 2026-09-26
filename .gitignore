@@ -1,0 +1,25 @@
+# Build output
+build/
+bin/
+obj/
+
+# The compiler toolchain is shared with the hoodrich project and is ~174 MB.
+# build.ps1 finds it at ..\hoodrich\tools\ or takes -Tools <path>.
+tools/roslyn/
+tools/refasm/
+
+# Local runtime artefacts
+*.log
+*.user
+
+# Recordings and screenshots dropped in the repo root.
+#
+# ROOT ONLY -- the leading slash matters. data/icons/*.png is the mod's artwork and has to
+# stay tracked; these are captures that land here from the game and get swept up by `git add
+# -A`. One of them was a 280 MB video, which GitHub refuses outright, so the push failed with
+# nothing on screen explaining which file was the problem.
+/*.mp4
+/*.png
+/*.jpg
+/*.jpeg
+

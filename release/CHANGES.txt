@@ -1,0 +1,10 @@
+HOOPS -- CHANGES
+
+0.1.0
+  First release: the basketball court out of Posted Up, on its own.
+  - One ring on the Chamberlain Hills court starts a game; the ball is in your hands.
+  - Hold to charge, let go to shoot. The throw is free -- nothing aims it at the hoop -- and
+    you can throw it as far as you like.
+  - The aim line comes out of the ball and fades before it lands: the idea, not the spot.
+  - Down through either hoop scores: two, or three from beyond the arc. Swishes are called.
+  - Stands down when Posted Up is installed, which has the same court built in.
